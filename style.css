@@ -1,0 +1,382 @@
+.Navbar{
+    display: flex;
+    position: fixed;
+}
+
+#bar{
+    padding-left:26px;
+    padding-right:20px;
+    margin-top:10px;
+    height:100%;
+    width:100%;
+    cursor: pointer;
+}
+
+.logo{
+    margin-top:7px;
+    width: 130px;
+    height: 22px;
+    display: flex;
+    cursor: pointer;
+}
+
+.searchbar{
+    position: relative;
+    align-items: center;
+    background-color:white ;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+    box-shadow: inset 0 1px 2px #eee;
+    color: black;
+    padding: 2px 6px;
+    margin-left: 160px;
+    flex: 1;
+    flex-basis: 1e-9px;
+    display: flex;
+    flex-direction: row;
+    width:520px;
+    height:36px;
+    
+
+}
+
+#input{
+    background-color: #00000000;
+    border: none;
+    box-shadow: none;
+    font-family: Roboto,Noto,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 100%;
+    text-align: inherit;
+    flex: 1;
+    flex-basis: 1e-9px;
+    text-shadow:none;
+    cursor: text;
+    outline:none;
+}
+
+.searchbutton{
+    border: 1px solid #d3d3d3;
+    background-color: #f8f8f8;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    height: 40px;
+    width: 60px;
+    margin: 0;
+}
+
+#searchS{
+     padding-left:19px;
+     padding-top:19px; 
+}
+
+.record{
+    width:20px;
+    margin-left:8px;
+    margin-top:2px;
+    padding-left: 11px;
+    padding-top:10px;
+    height: 28px;
+    width: 28px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-right{
+    display:flex;
+    margin-left:210px
+}
+
+.createvideo{
+    margin-right:30px;
+    padding-top:12px;
+    cursor: pointer;
+}
+
+.notification{
+    margin-right:30px;
+    padding-top:12px;
+    cursor: pointer;
+}
+
+.profile{
+    background-color: #AA27D0;
+    border-radius: 50%;
+    height:33px;
+    width:33px;
+    margin-top:4px;
+    cursor: pointer;
+}
+
+#profileS{
+    padding-left:9px;
+    padding-top:16px;
+    color:white;
+}
+
+.Menu{
+    position:fixed;
+    background-color: white;
+    margin-top:25px;
+}
+
+.menu-icon{
+    margin-left:22px;
+    margin-top:30px;
+}
+.menu-text{
+    margin-top:6px;
+    padding-left:2px;
+    text-align: left;
+}
+
+#libraryS{
+    margin-top:25px;
+    margin-left:15px;
+    width: 40px;
+    height:40px;
+}
+
+.cards-containers {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    width:85%;
+    padding-right: 30px;
+    /*   border:1px solid; */
+    margin-left: 170px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .content {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+    margin-bottom: 20px;
+    /* border:1px solid; */
+    max-width: 253px;
+  }
+  .content .channelImage {
+    margin-top: 8px;
+  }
+  
+  .content .videotitle {
+    margin-left: 10px;
+  }
+  .videotitle p {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 0.86rem;
+    /* line-height: 2.8rem; */
+    font-weight: 540;
+    margin-top: 10px;
+  }
+  .thumbnail{
+    /* border:1px solid; */
+    width:253px;
+    height:142px;
+  }
+  .thumbnail img{
+    width:253px;
+    height:142px;
+  }
+  
+  .first {
+    display: flex;
+  }
+  
+  .second .channelname {
+    /* position:relative; */
+    /*   border:1px solid; */
+    font-family: "Roboto", "Arial", sans-serif;
+    margin-left: 44px;
+    /* bottom:6px; */
+    margin-top: 5px;
+    font-size: 12px;
+    color: #606060;
+  }
+  .third {
+    display: flex;
+    margin-top: 5px;
+    font-family: "Roboto", "Arial", sans-serif;
+  }
+  .third .views {
+    position: relative;
+    margin-left: 42px;
+    font-size: 12px;
+    color: #606060;
+  }
+  .third .uploadtime {
+    position: relative;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #606060;
+  }
+  
+  /* <div class="main_content">
+  <div class="video_container">
+      <div class="videoplayer"></div>
+      <div class="videotitle"></div>
+      <div class="videomajorinfo"></div>
+      <div class="subscribeinfo"></div>
+  </div>
+  <div class="suggestedvideos"></div>
+  
+  
+  </div> */
+  
+  /* video part--------------------------------------- */
+  
+  .main_content {
+    display: flex;
+    /* border: 3px solid black; */
+    height: 100%;
+    margin-left:20px;
+    margin-top:12px;
+    /*  width:100%; */
+  }
+  .main_content .video_container {
+    /*  height:100%; */
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    padding: 5px;
+  }
+  .main_content .suggestedvideos {
+    /* border: 3px solid gray; */
+    width: 426px;
+    margin: 5px;
+    margin-left:10px;
+  }
+  .video_container .videoplayer {
+    width: 853px;
+    height: 480px;
+    /* border: 3px solid pink; */
+  }
+  .videoplayer img {
+    width: 853px;
+    height: 480px;
+  }
+  .videoplayer video{
+    width: 853px;
+    height: 480px;
+  }
+  .video_container .basicinfo {
+    /* border: 4px solid palevioletred; */
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 8px;
+  }
+  .video_container .videotitle {
+    height: 26px;
+    /* border: 2px solid green; */
+    margin-top: 23px;
+  }
+  .videotitle span {
+    font-family: "Roboto", "Arial", sans-serif;
+    line-height: 1.5rem;
+    word-break: break-word;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .video_container .videomajorinfo {
+    height: 40px;
+    padding: 0px;
+    margin-top: px;
+    display: flex;
+    /* border: 3px solid orange; */
+    justify-content: space-between;
+  }
+  .videomajorinfo .video_basic_info {
+    display: flex;
+    font-size: 16px;
+    color: #606060;
+  }
+  .videomajorinfo .iconstray {
+    display: flex;
+  }
+  .videomajorinfo div {
+  /*   margin-right: 30px; */
+    line-height: 2.5rem;
+  }
+  .iconstray div{
+    margin-right: 30px;
+  }
+  .iconstray i{
+    font-size:20px;
+  }
+  .timeofupload{
+    margin-left:12px;
+  }
+  
+  
+  /*    <div class="video_card">
+                      <div class="video_image"></div>
+                      <div class="video_info">
+                           <div class="title"></div>
+                            <div class="channelname"></div>
+                            <div class="video_internal_info">
+                              <div class="views"></div>
+                              <div class="videouploadtime"></div>
+                            </div>
+                      </div> */
+  /*                 </div> */
+  /* card css */
+  
+  .video_card {
+    /* border: 2px solid darkred; */
+    padding: 5px;
+    display: flex;
+  }
+  .video_card .video_image {
+    width: 168px;
+    height: 94px;
+    /* border: 2px solid darkgray; */
+  }
+  .video_image img{
+    width: 168px;
+    height: 86px;
+  }
+  
+  .video_card .video_info {
+    font-family: "Roboto", "Arial", sans-serif;
+    width: 202px;
+    padding: 2px;
+    margin-left:10px;
+    /* border: 1px solid lawngreen; */
+  
+  }
+  .video_card .title {
+    /* border: 1px solid darkgreen; */
+    font-size: 15px;
+    font-family: "Roboto", "Arial", sans-serif;
+  }
+  .video_card .channelname {
+    /* border: 1px solid lightgreen; */
+    margin-top: 8px;
+    font-size: 12px;
+    color: #606060;
+  }
+  .video_internal_info {
+    display: flex;
+    margin-top: 6px;
+  }
+  .video_internal_info .views {
+    margin-right: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 12px;
+    color: #606060;
+  }
+  .video_internal_info .videouploadtime {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 12px;
+    color: #606060;
+  }
+  
+
